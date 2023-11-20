@@ -1,0 +1,24 @@
+import LinkedList from "./linkedList.js";
+let list = new LinkedList();
+list.append("1");
+list.append("2");
+list.append("3");
+list.append("4");
+list.prepend("5");
+console.log("Size:");
+console.log(list.size());
+console.log("Head:");
+list.getHead();
+console.log("Tail:");
+list.tail();
+console.log("At index 2:");
+list.at(2);
+console.log("Pop:")
+list.pop();
+console.log("Contains: 2");
+list.contains("2");
+console.log("Find: 5");
+list.find("5");
+console.log("List To String:");
+console.log(list.toString());
+console.log(list);
